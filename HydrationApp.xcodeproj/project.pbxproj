@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8FCEC42CC7916D003BBFB6 /* HydrationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCEC32CC7916D003BBFB6 /* HydrationAppApp.swift */; };
+		EC8FCEC62CC7916D003BBFB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCEC52CC7916D003BBFB6 /* ContentView.swift */; };
+		EC8FCEC82CC7916E003BBFB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8FCEC72CC7916E003BBFB6 /* Assets.xcassets */; };
+		EC8FCECB2CC7916E003BBFB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8FCECA2CC7916E003BBFB6 /* Preview Assets.xcassets */; };
+		EC8FCED52CC7916E003BBFB6 /* HydrationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCED42CC7916E003BBFB6 /* HydrationAppTests.swift */; };
+		EC8FCEDF2CC7916E003BBFB6 /* HydrationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCEDE2CC7916E003BBFB6 /* HydrationAppUITests.swift */; };
+		EC8FCEE12CC7916E003BBFB6 /* HydrationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCEE02CC7916E003BBFB6 /* HydrationAppUITestsLaunchTests.swift */; };
+		EC8FCEF02CC7929C003BBFB6 /* NotificationPrefrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCEEF2CC7929C003BBFB6 /* NotificationPrefrences.swift */; };
+		EC8FCEF22CC792C4003BBFB6 /* nottest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8FCEF12CC792C4003BBFB6 /* nottest.swift */; };
+		ECB7A8142CD0AC2A00EC0815 /* todayProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB7A8132CD0AC2A00EC0815 /* todayProgress.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8FCED12CC7916E003BBFB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8FCEB82CC7916D003BBFB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8FCEBF2CC7916D003BBFB6;
+			remoteInfo = HydrationApp;
+		};
+		EC8FCEDB2CC7916E003BBFB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8FCEB82CC7916D003BBFB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8FCEBF2CC7916D003BBFB6;
+			remoteInfo = HydrationApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8FCEC02CC7916D003BBFB6 /* HydrationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydrationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8FCEC32CC7916D003BBFB6 /* HydrationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationAppApp.swift; sourceTree = "<group>"; };
+		EC8FCEC52CC7916D003BBFB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC8FCEC72CC7916E003BBFB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8FCECA2CC7916E003BBFB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC8FCED02CC7916E003BBFB6 /* HydrationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8FCED42CC7916E003BBFB6 /* HydrationAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationAppTests.swift; sourceTree = "<group>"; };
+		EC8FCEDA2CC7916E003BBFB6 /* HydrationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8FCEDE2CC7916E003BBFB6 /* HydrationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationAppUITests.swift; sourceTree = "<group>"; };
+		EC8FCEE02CC7916E003BBFB6 /* HydrationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC8FCEEF2CC7929C003BBFB6 /* NotificationPrefrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPrefrences.swift; sourceTree = "<group>"; };
+		EC8FCEF12CC792C4003BBFB6 /* nottest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nottest.swift; sourceTree = "<group>"; };
+		ECB7A8132CD0AC2A00EC0815 /* todayProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todayProgress.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8FCEBD2CC7916D003BBFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8FCECD2CC7916E003BBFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8FCED72CC7916E003BBFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8FCEB72CC7916D003BBFB6 = {
+			isa = PBXGroup;
+			children = (
+				EC8FCEC22CC7916D003BBFB6 /* HydrationApp */,
+				EC8FCED32CC7916E003BBFB6 /* HydrationAppTests */,
+				EC8FCEDD2CC7916E003BBFB6 /* HydrationAppUITests */,
+				EC8FCEC12CC7916D003BBFB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8FCEC12CC7916D003BBFB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8FCEC02CC7916D003BBFB6 /* HydrationApp.app */,
+				EC8FCED02CC7916E003BBFB6 /* HydrationAppTests.xctest */,
+				EC8FCEDA2CC7916E003BBFB6 /* HydrationAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8FCEC22CC7916D003BBFB6 /* HydrationApp */ = {
+			isa = PBXGroup;
+			children = (
+				EC8FCEC32CC7916D003BBFB6 /* HydrationAppApp.swift */,
+				EC8FCEC52CC7916D003BBFB6 /* ContentView.swift */,
+				EC8FCEEF2CC7929C003BBFB6 /* NotificationPrefrences.swift */,
+				ECB7A8132CD0AC2A00EC0815 /* todayProgress.swift */,
+				EC8FCEF12CC792C4003BBFB6 /* nottest.swift */,
+				EC8FCEC72CC7916E003BBFB6 /* Assets.xcassets */,
+				EC8FCEC92CC7916E003BBFB6 /* Preview Content */,
+			);
+			path = HydrationApp;
+			sourceTree = "<group>";
+		};
+		EC8FCEC92CC7916E003BBFB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC8FCECA2CC7916E003BBFB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC8FCED32CC7916E003BBFB6 /* HydrationAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8FCED42CC7916E003BBFB6 /* HydrationAppTests.swift */,
+			);
+			path = HydrationAppTests;
+			sourceTree = "<group>";
+		};
+		EC8FCEDD2CC7916E003BBFB6 /* HydrationAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8FCEDE2CC7916E003BBFB6 /* HydrationAppUITests.swift */,
+				EC8FCEE02CC7916E003BBFB6 /* HydrationAppUITestsLaunchTests.swift */,
+			);
+			path = HydrationAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8FCEBF2CC7916D003BBFB6 /* HydrationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8FCEE42CC7916E003BBFB6 /* Build configuration list for PBXNativeTarget "HydrationApp" */;
+			buildPhases = (
+				EC8FCEBC2CC7916D003BBFB6 /* Sources */,
+				EC8FCEBD2CC7916D003BBFB6 /* Frameworks */,
+				EC8FCEBE2CC7916D003BBFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydrationApp;
+			productName = HydrationApp;
+			productReference = EC8FCEC02CC7916D003BBFB6 /* HydrationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8FCECF2CC7916E003BBFB6 /* HydrationAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8FCEE72CC7916E003BBFB6 /* Build configuration list for PBXNativeTarget "HydrationAppTests" */;
+			buildPhases = (
+				EC8FCECC2CC7916E003BBFB6 /* Sources */,
+				EC8FCECD2CC7916E003BBFB6 /* Frameworks */,
+				EC8FCECE2CC7916E003BBFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8FCED22CC7916E003BBFB6 /* PBXTargetDependency */,
+			);
+			name = HydrationAppTests;
+			productName = HydrationAppTests;
+			productReference = EC8FCED02CC7916E003BBFB6 /* HydrationAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC8FCED92CC7916E003BBFB6 /* HydrationAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8FCEEA2CC7916E003BBFB6 /* Build configuration list for PBXNativeTarget "HydrationAppUITests" */;
+			buildPhases = (
+				EC8FCED62CC7916E003BBFB6 /* Sources */,
+				EC8FCED72CC7916E003BBFB6 /* Frameworks */,
+				EC8FCED82CC7916E003BBFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8FCEDC2CC7916E003BBFB6 /* PBXTargetDependency */,
+			);
+			name = HydrationAppUITests;
+			productName = HydrationAppUITests;
+			productReference = EC8FCEDA2CC7916E003BBFB6 /* HydrationAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8FCEB82CC7916D003BBFB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EC8FCEBF2CC7916D003BBFB6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EC8FCECF2CC7916E003BBFB6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EC8FCEBF2CC7916D003BBFB6;
+					};
+					EC8FCED92CC7916E003BBFB6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EC8FCEBF2CC7916D003BBFB6;
+					};
+				};
+			};
+			buildConfigurationList = EC8FCEBB2CC7916D003BBFB6 /* Build configuration list for PBXProject "HydrationApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8FCEB72CC7916D003BBFB6;
+			productRefGroup = EC8FCEC12CC7916D003BBFB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8FCEBF2CC7916D003BBFB6 /* HydrationApp */,
+				EC8FCECF2CC7916E003BBFB6 /* HydrationAppTests */,
+				EC8FCED92CC7916E003BBFB6 /* HydrationAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8FCEBE2CC7916D003BBFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8FCECB2CC7916E003BBFB6 /* Preview Assets.xcassets in Resources */,
+				EC8FCEC82CC7916E003BBFB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8FCECE2CC7916E003BBFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8FCED82CC7916E003BBFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8FCEBC2CC7916D003BBFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB7A8142CD0AC2A00EC0815 /* todayProgress.swift in Sources */,
+				EC8FCEC62CC7916D003BBFB6 /* ContentView.swift in Sources */,
+				EC8FCEF22CC792C4003BBFB6 /* nottest.swift in Sources */,
+				EC8FCEF02CC7929C003BBFB6 /* NotificationPrefrences.swift in Sources */,
+				EC8FCEC42CC7916D003BBFB6 /* HydrationAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8FCECC2CC7916E003BBFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8FCED52CC7916E003BBFB6 /* HydrationAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8FCED62CC7916E003BBFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8FCEDF2CC7916E003BBFB6 /* HydrationAppUITests.swift in Sources */,
+				EC8FCEE12CC7916E003BBFB6 /* HydrationAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8FCED22CC7916E003BBFB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8FCEBF2CC7916D003BBFB6 /* HydrationApp */;
+			targetProxy = EC8FCED12CC7916E003BBFB6 /* PBXContainerItemProxy */;
+		};
+		EC8FCEDC2CC7916E003BBFB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8FCEBF2CC7916D003BBFB6 /* HydrationApp */;
+			targetProxy = EC8FCEDB2CC7916E003BBFB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC8FCEE22CC7916E003BBFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC8FCEE32CC7916E003BBFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8FCEE52CC7916E003BBFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydrationApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.HydrationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8FCEE62CC7916E003BBFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydrationApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.HydrationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC8FCEE82CC7916E003BBFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.HydrationAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydrationApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydrationApp";
+			};
+			name = Debug;
+		};
+		EC8FCEE92CC7916E003BBFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.HydrationAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydrationApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydrationApp";
+			};
+			name = Release;
+		};
+		EC8FCEEB2CC7916E003BBFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.HydrationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydrationApp;
+			};
+			name = Debug;
+		};
+		EC8FCEEC2CC7916E003BBFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.HydrationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydrationApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8FCEBB2CC7916D003BBFB6 /* Build configuration list for PBXProject "HydrationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8FCEE22CC7916E003BBFB6 /* Debug */,
+				EC8FCEE32CC7916E003BBFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8FCEE42CC7916E003BBFB6 /* Build configuration list for PBXNativeTarget "HydrationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8FCEE52CC7916E003BBFB6 /* Debug */,
+				EC8FCEE62CC7916E003BBFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8FCEE72CC7916E003BBFB6 /* Build configuration list for PBXNativeTarget "HydrationAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8FCEE82CC7916E003BBFB6 /* Debug */,
+				EC8FCEE92CC7916E003BBFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8FCEEA2CC7916E003BBFB6 /* Build configuration list for PBXNativeTarget "HydrationAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8FCEEB2CC7916E003BBFB6 /* Debug */,
+				EC8FCEEC2CC7916E003BBFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8FCEB82CC7916D003BBFB6 /* Project object */;
+}
